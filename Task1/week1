@@ -1,0 +1,7 @@
+# Packet Sniffer Program
+# Author: Safi Ullah Khan
+# Description: This program uses Scapy to sniff network packets and extract information from IP, TCP, UDP, and ICMP layers.
+#              It resolves IP addresses to hostnames and prints detailed information about each packet including protocol,
+#              source and destination IP addresses, ports, TTL, length, and optional data for TCP/UDP packets.
+#              It also includes frame length, ACK, and checksum for TCP packets, and checksum for UDP and ICMP packets.
+#              The program starts by printing a header with the author's name and then begins packet sniffing.
